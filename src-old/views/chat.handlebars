@@ -1,0 +1,21 @@
+<div>
+    <h1>CODER Chat</h1>
+    <h2>Ejemplo de cliente Socket.io</h2>  
+    <br>
+    <div>
+        <input type="text" id="message" name="message">
+        <button type="submit" onclick="sendMessage()">Enviar</button>     
+    </div>
+    <div>
+        <h4>Mensajes del chat</h4>
+        {{!-- <ul>
+            {{#each messagesLog}}
+                <li>Id: {{this.id}}, Message: {{this.message}}</li>
+            {{/each}} 
+        </ul> --}}
+
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/static/js/chat.js"></script>
